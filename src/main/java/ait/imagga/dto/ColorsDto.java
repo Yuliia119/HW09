@@ -8,5 +8,11 @@ import java.util.List;
 public class ColorsDto {
     @JsonProperty("image_colors")
     private List<ColorsInfoDto> imageColors;
+    @JsonProperty("background_colors")
+    private List<ColorsInfoDto> backgroundColors;
+    @JsonProperty("foreground_colors")
+    private List<ColorsInfoDto> foregroundColors;
 
 }
+
+
